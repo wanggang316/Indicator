@@ -13,6 +13,15 @@
 		32B460B0230077200083BE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B460AF230077200083BE65 /* Assets.xcassets */; };
 		32B460B3230077200083BE65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B460B1230077200083BE65 /* LaunchScreen.storyboard */; };
 		32B460BE230077200083BE65 /* IndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460BD230077200083BE65 /* IndicatorTests.swift */; };
+		32B460D3230077560083BE65 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460C9230077560083BE65 /* IndicatorView.swift */; };
+		32B460D4230077560083BE65 /* Indicative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460CA230077560083BE65 /* Indicative.swift */; };
+		32B460D5230077560083BE65 /* IndicatorMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460CB230077560083BE65 /* IndicatorMaskView.swift */; };
+		32B460D6230077560083BE65 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460CC230077560083BE65 /* Indicator.swift */; };
+		32B460D7230077560083BE65 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32B460CD230077560083BE65 /* README.md */; };
+		32B460D8230077560083BE65 /* StatefulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460CF230077560083BE65 /* StatefulView.swift */; };
+		32B460D9230077560083BE65 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460D0230077560083BE65 /* ProgressHUD.swift */; };
+		32B460DA230077560083BE65 /* IndicatorTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460D1230077560083BE65 /* IndicatorTransition.swift */; };
+		32B460DB230077560083BE65 /* UIView+Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B460D2230077560083BE65 /* UIView+Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		32B460B9230077200083BE65 /* IndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B460BD230077200083BE65 /* IndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorTests.swift; sourceTree = "<group>"; };
 		32B460BF230077200083BE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B460C9230077560083BE65 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		32B460CA230077560083BE65 /* Indicative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicative.swift; sourceTree = "<group>"; };
+		32B460CB230077560083BE65 /* IndicatorMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorMaskView.swift; sourceTree = "<group>"; };
+		32B460CC230077560083BE65 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		32B460CD230077560083BE65 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32B460CF230077560083BE65 /* StatefulView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatefulView.swift; sourceTree = "<group>"; };
+		32B460D0230077560083BE65 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		32B460D1230077560083BE65 /* IndicatorTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorTransition.swift; sourceTree = "<group>"; };
+		32B460D2230077560083BE65 /* UIView+Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Indicator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		32B460A72300771E0083BE65 /* Indicator */ = {
 			isa = PBXGroup;
 			children = (
+				32B460C8230077560083BE65 /* Source */,
 				32B460A82300771E0083BE65 /* AppDelegate.swift */,
 				32B460AA2300771E0083BE65 /* ViewController.swift */,
 				32B460AC2300771E0083BE65 /* Main.storyboard */,
@@ -94,6 +113,30 @@
 				32B460BF230077200083BE65 /* Info.plist */,
 			);
 			path = IndicatorTests;
+			sourceTree = "<group>";
+		};
+		32B460C8230077560083BE65 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32B460C9230077560083BE65 /* IndicatorView.swift */,
+				32B460CA230077560083BE65 /* Indicative.swift */,
+				32B460CB230077560083BE65 /* IndicatorMaskView.swift */,
+				32B460CC230077560083BE65 /* Indicator.swift */,
+				32B460CD230077560083BE65 /* README.md */,
+				32B460CE230077560083BE65 /* Defaults */,
+				32B460D1230077560083BE65 /* IndicatorTransition.swift */,
+				32B460D2230077560083BE65 /* UIView+Indicator.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		32B460CE230077560083BE65 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				32B460CF230077560083BE65 /* StatefulView.swift */,
+				32B460D0230077560083BE65 /* ProgressHUD.swift */,
+			);
+			path = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +222,7 @@
 			files = (
 				32B460B3230077200083BE65 /* LaunchScreen.storyboard in Resources */,
 				32B460B0230077200083BE65 /* Assets.xcassets in Resources */,
+				32B460D7230077560083BE65 /* README.md in Resources */,
 				32B460AE2300771E0083BE65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B460D8230077560083BE65 /* StatefulView.swift in Sources */,
 				32B460AB2300771E0083BE65 /* ViewController.swift in Sources */,
+				32B460DA230077560083BE65 /* IndicatorTransition.swift in Sources */,
+				32B460D9230077560083BE65 /* ProgressHUD.swift in Sources */,
+				32B460DB230077560083BE65 /* UIView+Indicator.swift in Sources */,
+				32B460D6230077560083BE65 /* Indicator.swift in Sources */,
+				32B460D3230077560083BE65 /* IndicatorView.swift in Sources */,
 				32B460A92300771E0083BE65 /* AppDelegate.swift in Sources */,
+				32B460D5230077560083BE65 /* IndicatorMaskView.swift in Sources */,
+				32B460D4230077560083BE65 /* Indicative.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
